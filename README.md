@@ -110,17 +110,20 @@ Welcome to the collection of 100 JavaScript pattern programs. These patterns ran
 ---
 
 ## Pattern 1: Right-Angled Triangle
-
+-------------
 ### Code
 
-```javascript
-//  Pattern 1: Right-Angled Triangle
-
+```
 * 
 * * 
 * * * 
 * * * * 
 * * * * * 
+```
+
+```javascript
+//  Pattern 1: Right-Angled Triangle
+
 
 const rows = 5;
 let pattern = '';
@@ -134,9 +137,10 @@ for(let i = 1; i <= rows; i++) {
 console.log(pattern);
 
 
-## Pattern 2: Inverted Right-Angled Triangle
+```
 
-<a name="pattern-2-inverted-right-angled-triangle"></a>
+## Pattern 2: Inverted Right-Angled Triangle
+--------------
 ### Code
 ```javascript
 // Pattern 2: Inverted Right-Angled Triangle
@@ -149,3 +153,5 @@ for(let i=5;i>1;i--){
     pattern+="\n";
 }
 console.log(pattern);
+
+```
