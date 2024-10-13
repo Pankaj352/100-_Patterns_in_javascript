@@ -132,8 +132,15 @@ for(let i = 1; i <= rows; i++) {
     pattern += '\n';
 }
 console.log(pattern);
+
+
 ---
 
+## Pattern 2: Inverted Right-Angled Triangle
+
+### Code
+
+```javascript
 
 // Pattern 2: Inverted Right-Angled Triangle
 
