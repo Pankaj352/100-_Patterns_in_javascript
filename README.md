@@ -116,11 +116,12 @@ Welcome to the collection of 100 JavaScript pattern programs. These patterns ran
 ```javascript
 //  Pattern 1: Right-Angled Triangle
 
-*****
-*****
-*****
-*****
-*****
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
 const rows = 5;
 let pattern = '';
 
@@ -131,8 +132,25 @@ for(let i = 1; i <= rows; i++) {
     pattern += '\n';
 }
 console.log(pattern);
+---
 
- ## Pattern 8: Hollow Square            
- ### Code
- ```javascript
- <!-- Pattern 8: Hollow Square -->
+
+// Pattern 2: Inverted Right-Angled Triangle
+
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+
+const rows = 5;
+let pattern = '';
+
+for(let i = rows; i >= 1; i--) {
+    for(let j = 1; j <= i; j++) {
+        pattern += '* ';
+    }
+    pattern += '\n';
+}
+console.log(pattern);
