@@ -134,30 +134,18 @@ for(let i = 1; i <= rows; i++) {
 console.log(pattern);
 
 
----
-
 ## Pattern 2: Inverted Right-Angled Triangle
 
+<a name="pattern-2-inverted-right-angled-triangle"></a>
 ### Code
-
 ```javascript
-
 // Pattern 2: Inverted Right-Angled Triangle
 
-* * * * * 
-* * * * 
-* * * 
-* * 
-* 
-
-
-const rows = 5;
-let pattern = '';
-
-for(let i = rows; i >= 1; i--) {
-    for(let j = 1; j <= i; j++) {
-        pattern += '* ';
+var pattern="";
+for(let i=5;i>1;i--){
+    for(let j=1;j<i;j++){
+        pattern+="*";
     }
-    pattern += '\n';
+    pattern+="\n";
 }
 console.log(pattern);
